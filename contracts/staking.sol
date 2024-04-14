@@ -19,8 +19,8 @@ contract StakingContract is Ownable {
         uint256 accumulatedReward;
     }
 
-    mapping(address => Stake) internal stakes;
-    mapping(address => uint256) private totalStakedAmountPerUser; // Total staked amount per user
+    mapping(address => Stake) public stakes;
+    mapping(address => uint256) public totalStakedAmountPerUser; // Total staked amount per user
     uint256 public totalStakedAmount;
     uint256 public totalRewardsPaid;
 

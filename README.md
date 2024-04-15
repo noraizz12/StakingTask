@@ -1,5 +1,4 @@
-https://sepolia.etherscan.io/address/0xad791170Bdeb8001aEeEA5E49a3982636EF5F88a#code
-
+https://sepolia.etherscan.io/address/0xf95b8414a579104b01179e51c145c31e75450db6#code
 Given the requirement that users should be able to view their rewards at any given time, it's important to ensure that there's a way for users to access this information. Therefore, it's advisable to keep the mapping storing rewards as either internal or public to maintain external visibility.
 
 Accepts DEFI as the staking token and gives out DEFI as the reward: Yes, the contract takes DEFI tokens for staking and rewards users with DEFI tokens.
